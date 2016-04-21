@@ -19,5 +19,8 @@ module SimpleForm
     autoload :RangeInput
     autoload :StringInput
     autoload :TextInput
+    autoload :LocalizedInput
+    autoload :LocalizedStringInput
+    autoload :LocalizedTextArea
   end
 end
