@@ -3,7 +3,7 @@ module SimpleForm
     class LocalizedInput < Base
       enable :placeholder, :maxlength, :pattern
 
-      LANGUAGES = [:de, :en]
+      LANGUAGES = [:de, :en, :ru]
 
       def label
         result = if generate_label_for_attribute?
